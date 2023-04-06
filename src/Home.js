@@ -10,7 +10,7 @@ class Home extends React.Component{
                 <div style={styles.menuList} id='menu-list'>
                     <div style={styles.titleBar}>
                         <p style={{fontWeight:'bold'}}>iPod</p>
-                        <img style={styles.battery} src="https://image.flaticon.com/icons/svg/3103/3103446.svg"></img>
+                        <img style={styles.battery} src="https://icon-library.com/images/iphone-battery-charging-icon/iphone-battery-charging-icon-14.jpg"></img>
                     </div>
                     <ListGroup style={{borderRadius:'0'}}>
                         <ListGroup.Item style={{border:'0',padding: '0.2rem 0.6rem'}} className={this.props.activeItem==='NowPlaying'?'active':''}>
@@ -50,13 +50,11 @@ const styles = {
         zIndex : '1'
     },
     imageContainer : {
-        //border:'1px solid black',
         height : '100%',
         width : '50%',
-        backgroundImage : 'url("https://i.pinimg.com/originals/b5/ca/9a/b5ca9a6c64b6a5c445dc993dd6294d10.jpg")',
+        backgroundImage : 'url("https://images-platform.99static.com//Iqpm-otUQ7D-Gr8OBb3Npf6JQCo=/252x0:5363x5111/fit-in/500x500/projects-files/109/10976/1097691/e721b0b4-cbd5-4f0f-ba38-6a74427b869f.jpg")',
         backgroundSize : 'cover',
         backgroundPosition : 'center',
-        borderRadius : '0 12px 12px 0'
     },
     titleBar : {
         height:'10%',

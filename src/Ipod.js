@@ -169,11 +169,9 @@ class Ipod extends React.Component{
 
     componentDidMount(){
         let audio = document.getElementsByClassName("audio-element")[0];
-        console.log(audio)
         this.setState({
             audio : audio,
         })
-        console.log(this.state)
     }
 
     render(){
@@ -218,7 +216,7 @@ const styles = {
     ipodContainer : {
         height : '33rem',
         width : '20rem',
-        backgroundImage: 'radial-gradient(#adb1b5, #4d4f50)',
+        background: '#9a9a9a',
         margin : '4rem auto',
         display : 'flex',
         flexDirection : 'row',
@@ -231,19 +229,20 @@ const styles = {
         width : '75%',
         height : '40%',
         margin : '1rem auto',
-        backgroundColor : '#4b4e52',
+        backgroundColor : '#fdfdfd',
         borderRadius : '50%',
         display : 'flex',
         flexDirection : 'row',
         flexWrap : 'wrap',
-        justifyContent : 'center'
+        justifyContent : 'center',
+        boxShadow: "0px 2px 5px 0px rgba(0,0,0,0.2)",
     },
     buttonContainer : {
         width : '85%',
         height : '30%',
         display : 'flex',
         flexDirection : 'row',
-        justifyContent : 'center'
+        justifyContent : 'center',
     },
     menuButton : {
         alignSelf:'center'
@@ -261,8 +260,9 @@ const styles = {
     image: {
         alignSelf : 'center',
         fontSize: '1.5rem',
-        color : 'white'
+        color : '#9a9a9a'
     },
+    
 }
 
 export default Ipod;

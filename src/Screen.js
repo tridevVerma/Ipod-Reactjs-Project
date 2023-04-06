@@ -30,7 +30,7 @@ const styles = {
         width : '95%',
         borderRadius : '12px',
         backgroundColor : 'white',
-        border : '2px solid black',
+        border : '6px solid #666',
         marginTop : '1rem'
     }
 }

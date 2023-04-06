@@ -8,10 +8,10 @@ class Settings extends React.Component{
 
                 <div style={styles.titleBar}>
                         <p style={{fontWeight:'bold'}}>iPod</p>
-                        <img style={styles.battery} src="https://image.flaticon.com/icons/svg/3103/3103446.svg"></img>
+                        <img style={styles.battery} src="https://icon-library.com/images/iphone-battery-charging-icon/iphone-battery-charging-icon-14.jpg"></img>
                 </div>
                 <div style={{width : '100%' , height : '90%',display:'flex' , flexDirection : 'row' , justifyContent: 'center'}}>
-                    <img style={styles.image} src="https://image.flaticon.com/icons/svg/929/929435.svg" />
+                    <img style={styles.image} src="https://cdn-icons-png.flaticon.com/512/1032/1032340.png" />
                 </div>
             </div>
         );

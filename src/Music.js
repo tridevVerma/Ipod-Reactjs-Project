@@ -9,7 +9,7 @@ class Music extends React.Component{
                 <div style={styles.menuList} id='menu-list'>
                     <div style={styles.titleBar}>
                             <p style={{fontWeight:'bold'}}>iPod</p>
-                            <img style={styles.battery} src="https://image.flaticon.com/icons/svg/3103/3103446.svg"></img>
+                            <img style={styles.battery} src="https://icon-library.com/images/iphone-battery-charging-icon/iphone-battery-charging-icon-14.jpg"></img>
                     </div>
                     <ListGroup  style={{borderRadius:'0'}}>
                         <ListGroup.Item style={{border:'0',padding: '0.2rem 0.6rem'}} className={this.props.activeItem==='MyMusic'?'active':''}>

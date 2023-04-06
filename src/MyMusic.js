@@ -1,5 +1,4 @@
 import React from 'react';
-import sound from './assets/music/Senorita.mp3'
 
 class MyMusic extends React.Component{
     
@@ -21,7 +20,6 @@ class MyMusic extends React.Component{
                     var pos = self.props.audio.currentTime/self.props.audio.duration;
                     self.updateTime();
                     let fill = document.getElementById("fill");
-                    console.log(fill);
                     if(fill !== null){
                         fill.style.width = pos*100 + "%";
                     }
@@ -39,7 +37,7 @@ class MyMusic extends React.Component{
     }
 
     componentWillUnmount(){
-        this.state.isMounted = false;
+        this.setState({isMounted : false})
     }
 
     render(){
@@ -48,7 +46,7 @@ class MyMusic extends React.Component{
             <div style={styles.myMusicContainer}>
                 <div style={styles.titleBar}>
                         <p style={{fontWeight:'bold'}}>iPod</p>
-                        <img style={styles.battery} src="https://image.flaticon.com/icons/svg/3103/3103446.svg"></img>
+                        <img style={styles.battery} src="https://icon-library.com/images/iphone-battery-charging-icon/iphone-battery-charging-icon-14.jpg"></img>
                 </div>
 
                 <div style={styles.info}>
